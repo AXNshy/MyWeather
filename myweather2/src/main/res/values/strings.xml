@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">很准天气</string>
+    <string name="confirm">确认</string>
+    <string name="netError">网络连接异常</string>
+    <string name="menu_addcity">添加/查询</string>
+    <string name="menu_setting">设置</string>
+    <string name="menu_login">登录</string>
+    <string name="select_et_prompt">请输入城市</string>
+    <string name="action_search">查询</string>
+    <string name="refresh">刷新</string>
+</resources>

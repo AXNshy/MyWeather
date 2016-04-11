@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:id="@+id/id_weather_view"
+    android:background="@drawable/water_weather">
+
+    <!-- 城市名、PM值、下划线、错误提示内容的显示，用一个LinearLayout包裹起来 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        <!-- 城市名  -->
+        <TextView
+            android:id="@+id/tv_city_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            />
+        <!-- PM值 -->
+        <TextView
+            android:id="@+id/tv_pm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            />
+        <!-- 下划线 -->
+        <TextView
+            android:id="@+id/tv_pmlevel"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            />
+        <!-- 错误提示信息 -->
+        <TextView
+            android:id="@+id/tv_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FF0000"
+            android:text="@string/netError"
+            android:visibility="invisible"
+            android:textSize="22sp"
+            />
+    </LinearLayout>
+
+    <!-- 展示气温、天气、风、日期部分，用RelativeLayout来包裹，屏幕垂直居中 -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        >
+        <!--气温-->
+        <TextView
+            android:id="@+id/tv_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            />
+        <!-- 天气 -->
+        <TextView
+            android:id="@+id/tv_weather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_toRightOf="@id/tv_temp"
+            android:layout_marginLeft="15dp"
+            android:layout_alignBottom="@id/tv_temp"
+            />
+        <!-- 风 -->
+        <TextView
+            android:id="@+id/tv_wind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_below="@id/tv_temp"
+            android:layout_marginTop="15dp"
+            />
+        <!-- 日期 -->
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="6dp"
+            android:textSize="16sp"
+            android:layout_below="@id/tv_wind"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>
+

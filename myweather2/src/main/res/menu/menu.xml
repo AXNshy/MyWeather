@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myweather2="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/id_action_search"
+        android:icon="@drawable/iconmonstr_magnifier_4_240"
+        android:title="@string/action_search"
+        android:actionViewClass="android.widget.SearchView"
+        myweather2:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/id_menu_add"
+        android:icon="@drawable/iconmonstr_plus_6_240"
+        android:title="@string/menu_addcity"/>
+    <item
+        android:id="@+id/id_menu_setting"
+        android:icon="@drawable/iconmonstr_gear_24_light"
+        android:title="@string/menu_setting"/>
+    <item
+        android:id="@+id/id_menu_login"
+        android:icon="@drawable/iconmonstr_key_6_240"
+        android:title="@string/menu_login"/>
+</menu>

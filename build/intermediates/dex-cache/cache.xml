@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/axnshy/AndroidStudioProjects/MyWeather/myweather2/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/Users/axnshy/AndroidStudioProjects/MyWeather/myweather2/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.2.1_f8a81b612f5b57654e7d044e74db504a91f02561/classes.dex" />
+    </item>
+    <item
+        jar="/Users/axnshy/AndroidStudioProjects/MyWeather/myweather2/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/Users/axnshy/AndroidStudioProjects/MyWeather/myweather2/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.2.1_be543deea6e4f692d00f44e21f201c054d639c9e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/axnshy/AndroidStudioProjects/MyWeather/myweather2/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e2240e49553645f4da8041eb1e44c366dc3f5b32">
+        <dex dex="/Users/axnshy/AndroidStudioProjects/MyWeather/myweather2/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_1e0bb81fbcc4a54cc241952f73e53d72b0891d70/classes.dex" />
+    </item>
+    <item
+        jar="/Users/axnshy/AndroidStudioProjects/MyWeather/myweather2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="/Users/axnshy/AndroidStudioProjects/MyWeather/myweather2/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.2.1_f3f56b713e662c8ee6b0604e8e6ba986c43600cd/classes.dex" />
+    </item>
+    <item
+        jar="/Library/Java/androidSdk/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="/Users/axnshy/AndroidStudioProjects/MyWeather/myweather2/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.2.1_7fbf844adbb564ea4f368f4b4687f61f7a2bb92f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/axnshy/AndroidStudioProjects/MyWeather/myweather2/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="/Users/axnshy/AndroidStudioProjects/MyWeather/myweather2/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.2.1_663d8203cc711a7e871ad66890a7dc87411c5910/classes.dex" />
+    </item>
+    <item
+        jar="/Users/axnshy/AndroidStudioProjects/MyWeather/myweather2/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="/Users/axnshy/AndroidStudioProjects/MyWeather/myweather2/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.2.1_ddbb08c43599c9bd8a7c489f5a2af35ad78bc39d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/axnshy/AndroidStudioProjects/MyWeather/myweather2/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="834a98d7c12b747ea2fcace8cb4c8afb69199596">
+        <dex dex="/Users/axnshy/AndroidStudioProjects/MyWeather/myweather2/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_ea1c593f2d6e73275883b8abf2b81a9bfaa3254b/classes.dex" />
+    </item>
+
+</items>

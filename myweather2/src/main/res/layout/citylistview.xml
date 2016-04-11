@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+        <EditText
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:text="@string/select_et_prompt"
+            android:textColor="@android:color/holo_orange_light"
+            android:layout_height="match_parent"
+            android:textSize="30dp"
+            android:id="@+id/id_select_city"
+            android:gravity="center_vertical"/>
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/id_confirm_city"
+            android:textSize="25dp"
+            android:textColor="#FFFFFe"
+            android:layout_gravity="right"
+            android:text="@string/confirm"
+            />
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:id="@+id/id_list_city"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
